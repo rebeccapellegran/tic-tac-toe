@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 
-body: {
-    margin: 0;
+body {
+    margin:0;
     height: 100vh;
-    width: 100vw;
+    width: 100wh;
     background-color: grey;
     display: flex;
     flex-direction: row;
@@ -14,6 +14,7 @@ body: {
 }
 
 .game-container{
+    padding: 10px 0 0 0;
     height: 90%;
     width: 90%;
     display: flex;
@@ -30,4 +31,17 @@ body: {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 15px;
+  background-color: black;
+}
+
+.tile{
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: bluergb(red, green, blue);
 }
