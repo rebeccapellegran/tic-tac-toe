@@ -3,10 +3,10 @@
 }
 
 body {
-    margin:0;
+    margin: 0;
     height: 100vh;
-    width: 100wh;
-    background-color: grey;
+    width: 100vw;
+    background-color: lavender;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
     width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
 }
@@ -43,5 +43,5 @@ body {
 }
 
 .blue{
-    background-color: bluergb(red, green, blue);
+    background-color: blue;
 }
