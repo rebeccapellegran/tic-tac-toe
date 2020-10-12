@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     margin: 0;
@@ -14,29 +12,23 @@ body {
 }
 
 .game-container{
-    padding: 10px 0 0 0;
-    height: 90%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 612px;
+    margin: 50px auto;
     background-color: white;
 }
-
-.board{
-  height: 75%;  
-  width: 75%;
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 15px;
-  background-color: black;
-}
-
-.tile{
-    background-color: white;
-}
+    
+.tile {
+    font-family: "Permanent Marker", cursive;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+ }
 
 .red{
     background-color: red;
